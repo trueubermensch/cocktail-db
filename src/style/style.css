@@ -1,0 +1,25 @@
+body {
+    background-color: #222222;
+}
+
+.navbar-custom a {
+    color: #ffc107;
+}
+
+.navbar-custom a:hover {
+    color: #ffc107;
+}
+
+.search-bar {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border: #ffc107 1px solid;
+    border-radius: 3px;
+    color: #ffc107;
+}
+
+.search-bar:focus {
+    outline: none;
+    background-color: coral;
+}

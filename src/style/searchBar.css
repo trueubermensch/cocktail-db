@@ -1,0 +1,8 @@
+.search-bar {
+    display:block;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    border:orange 2px solid;
+    color: orange;
+}
