@@ -8,7 +8,7 @@ import "../style/style.css";
 
 function App() {
     const [cocktailList, setCocktailList] = useState([]);
-    const [cocktail, setCocktail] = useState({});
+    const [cocktail, setCocktail] = useState(null);
     const [submit, setSubmit] = useState("");
 
     const isInitialMount = useRef(true);
